@@ -1,0 +1,25 @@
+.buttons {
+  padding-top: 3em;
+}
+.buttons__button {
+  font-family: $Roboto, sans-serif !important;
+  border-radius: 30px !important;
+  padding: 1em !important;
+  margin-right: 1em !important;
+  transition: .5s;
+}
+.buttons__button:hover {
+  background-color: $light-gray !important;
+  color: $raisin-black;
+  border: 0 !important;
+}
+
+// Media Querys para centrar botones versión movil
+@media (max-width: 800px) {
+  .buttons {
+    justify-content: center;
+  }
+  .buttons__button {
+    padding: 0.5em !important;
+  }
+}

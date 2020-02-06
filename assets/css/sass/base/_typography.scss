@@ -1,0 +1,52 @@
+h1 {
+  font-family: $Playfair;
+  font-size: $xx-large;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+h2 {
+  font-family: $Playfair;
+  font-size: $x-large;
+  font-style: italic;
+  color: $eerie-black;
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+}
+h3 {
+  font-family: $Playfair;
+  font-size: $large;
+  font-style: italic;
+  color: $nickel;
+}
+p {
+  font-family: $Roboto;
+  font-style: sans-serif;
+}
+// Tipografía Sección parrafos
+.paragraphs__date {
+  padding-bottom: 1em;
+}
+.paragraphs__p {
+  color: $nickel;
+}
+// Tipografía Sección Naomi Thai
+.description__h3 a {
+  font-size: $large;
+  color: $ruddy-pink;
+  transition: .3s;
+    &:hover {
+      color: $nickel;
+      text-decoration: none;
+  }
+}
+ .description__h4 a {
+   font-size: $large;
+   color: $ruddy-pink;
+   transition: .3s;
+     &:hover {
+       color: $nickel;
+       text-decoration: none;
+   }
+ }

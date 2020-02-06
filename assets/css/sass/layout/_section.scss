@@ -1,0 +1,32 @@
+// Sección parrafos
+.paragraphs {
+  padding-top: 3em;
+  padding-left: 3em !important;
+  padding-right: 3em !important;
+}
+// Sección descripción Naomi Thai
+.description__container {
+  display: flex;
+  padding: 5em;
+}
+.description__img {
+  width: 15em;
+  border-radius: 50%;
+  border: 1px solid $nickel;
+  margin-right: 3em;
+}
+.description__p {
+  padding: 3.2em;
+  color: $light-gray;
+}
+// Media Query versión movil
+@media (max-width: 1200px) {
+  // Sección Naomi Thai
+  .description__container {
+    text-align: center;
+  }
+  .description__img {
+    margin-right: 0;
+    width: 12em;
+  }
+}

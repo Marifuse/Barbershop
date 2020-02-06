@@ -1,0 +1,53 @@
+.navigation {
+  background-color: $platinum;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden;
+}
+.pagination {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.page-link {
+  font-family: $Roboto, sans-serif;
+  font-size: $medium;
+  color: $eerie-black !important;
+  transition: .5s;
+}
+.page-link {
+  &:hover {
+    background-color: $nickel !important;
+    color: $white !important;
+  }
+}
+.page-item:first-child .page-link {
+  padding-left: 2em;
+  padding-right: 2em;
+  border-bottom-left-radius: 28px !important;
+  border-top-left-radius: 28px !important;
+}
+.page-item .active {
+  background-color: $nickel !important;
+  color: $white !important;
+}
+.page-item:last-child .page-link {
+  padding-left: 2em;
+  padding-right: 2em;
+  border-bottom-right-radius: 28px !important;
+  border-top-right-radius: 28px !important;
+}
+// Media Querys versión movil
+@media (max-width: 800px) {
+  .page-link {
+    &:hover {
+      background-color: $eerie-black !important;
+      color: $white !important;
+    }
+  }
+  .page-item .active {
+    background-color: $eerie-black !important;
+    color: $white !important;
+  }
+}

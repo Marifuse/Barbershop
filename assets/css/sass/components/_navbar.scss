@@ -1,0 +1,25 @@
+.navbar {
+  background-color: $eerie-black !important;
+  padding-left: 50px;
+}
+.navbar__logo {
+  width: 30%;
+}
+.navbar-collapse {
+  text-align: center;
+}
+.ml-auto li {
+  padding: 0.5em;
+}
+.nav-item {
+  padding-left: 1em;
+  padding-right: 1em;
+  a {
+    color: $white;
+    transition: .5s;
+  }
+}
+.nav-item a:hover {
+  color: $ruddy-pink !important;
+  text-decoration: none;
+}
